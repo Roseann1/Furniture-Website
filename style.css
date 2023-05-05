@@ -126,21 +126,16 @@ h4 {
     width: calc(4 / 12 * 100%);
 }
 
-.max-w-900 {
-    max-width: 900;
-    margin: 0 auto;
-}
-
 #gallery {
     display: flex;
     flex-wrap: wrap;
     gap: 50px;
     max-width: 1200px;
     justify-content: center;
+    margin-bottom: 100px;
 }
 .card1 {
     top: 900px;
-    margin-left: 100px;
     padding: 75px 110px;
     background: #263240;
     box-shadow: 16px 24px 72px rgba(38, 50, 64, 0.16);
@@ -179,8 +174,13 @@ h4 {
 .product-gallery {
     background: #D9D9D9;
     padding-top: 121px;
+    padding-bottom: 121px;
     padding-left: 120px;
     padding-right: 120px;
+}
+
+#product-line {
+    margin-bottom: 200px;
 }
 
 #product-line h5 {
@@ -209,10 +209,45 @@ h4 {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    width: 610px;
+    width: 500px;
     height: 137px;
 }
 
 .card p:last-child {
     color: rgb(255,255,255, 70%);
+}
+
+
+.furniture-w-ease h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: rgba(38, 50, 64, 1);
+}
+
+.furniture-w-ease p {
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(38, 50, 64, 0.7);
+}
+
+.mediocrity h2 {
+    font-size: 48px;
+    font-weight: 700;
+    color: rgba(38, 50, 64, 1);
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.mediocrity p {
+    font-size: 19px;
+    font-weight: 400;
+    color: rgba(38, 50, 64, 0.7);
+    line-height: 32px;
+    margin-bottom: 64px;
+}
+
+.photo-gallery {
+    padding-left: 120px;
+    padding-right: 120px;
+
 }

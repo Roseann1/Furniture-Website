@@ -29,16 +29,6 @@ h1 {
     padding-top: 10px;
 }
 
-.header-box {
-    display: flex;
-    width: 100%;
-    background-color:  rgb(224, 168, 168);
-}
-
-.flex {
-    flex-grow: 1;
-}
-
 .menu {
     display: flex;
     width: 100%;
@@ -138,6 +128,11 @@ button {
     padding-right: 50px;
 }
 
+.second-section {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 h3 {
     font-size: 40px;
     text-align: center;
@@ -160,34 +155,28 @@ h4 {
 .gallery {
     justify-content: center;
     margin-bottom: 150px;
-    padding-left: 80px;
-    padding-right: 80px;
+    gap: 30px;
+
 }
     .card1 {
-    top: 900px;
-    padding: 75px 110px;
-    width:95%;
+    padding: 78px 110px;
     background: #263240;
-    box-shadow: rgba(38, 50, 64, 0.16);
+    box-shadow: 5px 10px rgba(38, 50, 64, 0.16);
     color: white;
 
 }
 
 .card2 {
-    top: 900px;
-    padding: 65px 110px;
-    width: 95%;
+    padding: 78px 110px;
     background: rgba(38, 50, 64, 0.16);
-    box-shadow: rgba(38, 50, 64, 0.16);
+    box-shadow: 5px 10px rgba(38, 50, 64, 0.16);
     color: black;
 }
 
 .card3 {    
-    top: 900px;
-    padding: 75px 110px;
-    width: 95%;
+    padding: 68px 110px;
     background: rgba(38, 50, 64, 0.16);
-    box-shadow: rgba(38, 50, 64, 0.16);
+    box-shadow: 5px 10px rgba(38, 50, 64, 0.16);
     color: black;
 
 }
@@ -197,9 +186,6 @@ h4 {
     padding-top: 121px;
 }
 
-.furniture {
-    background-color: rgba(217, 217, 217, 1);
-}
 .product-gallery {
     background: #D9D9D9;
     padding-top: 121px;
@@ -208,9 +194,6 @@ h4 {
     padding-right: 100px;
 }
 
-#product-line {
-    margin-bottom: 200px;
-}
 
 #product-line h5 {
     margin-bottom: 24px;
@@ -219,7 +202,7 @@ h4 {
 }
 
 #product-line p {
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-size: 20px;
     font-weight: 400;
     color: rgba(38, 50, 64, 0.7)
@@ -234,18 +217,21 @@ h4 {
 
 .cards {
     background-color: #263240;
-    padding: 24px;
+    padding: 28px;
     display: flex;
     justify-content: space-between;
     text-align: center;
-    width: 500px;
-    height: 137px;
+    width: 96%;
+    height: 100%;
 }
 
 .card p:last-child {
     color: rgb(255,255,255, 70%);
 }
 
+.we-provide {
+    padding-bottom: 100px;
+}
 
 .furniture-w-ease h2 {
     padding-top: 0;
@@ -280,6 +266,7 @@ h4 {
     padding-left: 100px;
     padding-right: 100px;
     padding-bottom: 100px;
+    padding-top: 100px;
 }
 
 .subscription {
@@ -353,6 +340,13 @@ h4 {
     }
 
   }
+
+  /* @media (min-width: 375px) {
+    .card p:first-child {
+        font-size: 20px;
+    }
+  } */
+
 
   /* sm breakpoint */
   @media (min-width: 576px) {

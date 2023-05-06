@@ -17,6 +17,14 @@ body {
     width: 100%;
 }
 
+.col-4 {
+    width: calc(4 / 12 * 100%);
+}
+
+.col-6 {
+    width: calc(6 / 12 * 100%);
+}
+
 h1 {
     font-size: 40px;
 }
@@ -122,10 +130,6 @@ h4 {
     font-weight: 400;
 }
 
-.col-4 {
-    width: calc(4 / 12 * 100%);
-}
-
 #gallery {
     display: flex;
     flex-wrap: wrap;
@@ -160,9 +164,6 @@ h4 {
 
 }
 
-.col-6 {
-    width: calc(6 / 12 * 100%);
-}
 
 .products {
     padding-top: 121px;

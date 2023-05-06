@@ -19,34 +19,38 @@
       <nav>
         <div class="container">
           <div class="row">
-            <div class="col header-box">
-              <div>
-                <h1>StylishHaven</h1>
+            <div class="col col-md-6 col-lg-3">
+              <div class="logo">
+                <img src="/assets/logo.png">
               </div>
-              <div class="flex">
-                <ul class="menu">
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">Features</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Gallery</a></li>
-                </ul>
-              </div>
-              <div>
-                <button id="signup"><pre>Sign Up</pre></button><br />
-              </div>
+            </div>
+            <div class="col col-md-6 col-lg-7">
+              <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Gallery</a></li>
+              </ul>
+
+            </div>
+            <div class="col col-md-6 col-lg-2">
+              <div class="sign-up-button">
+                <button class="signup">Sign Up</button>
+              </div> 
             </div>
           </div>
         </div>
       </nav>
     </header>
-    <!-- 1st section -->
+    <!-- <main> -->
+      <!-- 1st section -->
     <section>
       <div class="container hero">
         <div class="row">
           <div class="col">
-            <h2>Unique Furniture For<br />Your Dream House</h2>
+            <h2 class="title">Unique Furniture For <span class="block">Your Dream House</span></h2>
             <p class="desc">
-              Realize your dream home with selected products to<br />
+              Realize your dream home with selected products to
               suit your style, space and budget
             </p>
             <button class="btn-secondary">Discover New Furniture</button>
@@ -54,8 +58,9 @@
         </div>
       </div>
     </section>
+    
     <!-- 2nd section -->
-    <section>
+    <!-- <section>
       <div class="container">
         <div class="row">
           <div class="col">
@@ -68,41 +73,44 @@
             </h4>
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            <div id="gallery">
-              <div class="card1">
-                <img src="/assets/box.png" alt="icon" width="50px" height="50px" />
-                <p style="text-align: center">Very Durable<br />Product</p>
-              </div>
-              <div class="card2">
-                <img src="/assets/star.png" alt="icon" width="70px" height="70px" />
-                <p>Unlimited<br />Guarantee</p>
-              </div>
-              <div class="card3">
-                <img
-                  src="/assets/tag.png"
-                  alt="icon"
-                  width="50px"
-                  height="50px"
-                  justify-content="center"
-                />
-                <p style="text-align: center">
-                  Low Prices<br />Premium Quality
-                </p>
-              </div>
+        <div class="row gallery">
+          <div class="col col-md-6 col-lg-4">
+            <div class="card1">
+              <img src="/assets/box.png" alt="icon" width="50px" height="50px" />
+              <p style="text-align: center">Very Durable<br />Product</p>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4">
+            <div class="card2">
+              <img src="/assets/star.png" alt="icon" width="70px" height="70px" />
+              <p>Unlimited<br />Guarantee</p>
+            </div>
+          </div>
+          <div class="col col-md-6 col-lg-4">
+            <div class="card3">
+              <img
+                src="/assets/tag.png"
+                alt="icon"
+                width="50px"
+                height="50px"
+                justify-content="center"
+              />
+              <p style="text-align: center">
+                Low Prices<br />Premium Quality
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
+
     <!-- 3rd section -->
-    <section>
+    <!-- <section>
       <div class="container product-gallery">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-1 col-lg-6">
             <div class="furniture">
-              <img src="/assets/photo1.png" style="width: 500px; height: 472px" />
+              <img src="/assets/photo1.png" style="width: 100%; height: 472px" />
             </div>
             <div class="cards">
               <div class="card">
@@ -119,7 +127,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-md-1 col-lg-6">
             <div id="product-line">
               <h5>We Provide You The Best Experience</h5>
               <p>
@@ -127,23 +135,23 @@
                 the furniture you can get at affordable prices, easily and
                 quickly.
               </p>
-              <img src="/assets/pic7.png" width="550px" height="387px" />
+              <img src="/assets/pic7.png" width="100%" height="387px" />
             </div>
           </div>
         </div>
-
-        <div class="row">
+ -->
+        <!-- <div class="row">
           <div class="col-4">
             <img
               src="/assets/pic13.png"
-              style="width: 322px; height: 290px; padding-bottom: 24px"
+              style="width: 95%; height: 290px; padding-bottom: 24px"
             />
-            <img src="/assets/pic12" style="width: 322px; height: 340px" />
+            <img src="/assets/pic12.png" style="width: 95%; height: 340px" />
           </div>
           <div class="col-4">
-            <img src="/assets/pic3.png" style="width: 322px; height: 354px" />
+            <img src="/assets/pic3.png" style="width: 95%; height: 380px" />
             <div class="furniture-w-ease">
-              <h2>Furniture With Ease Of Comfort</h2>
+              <h2>Furniture<br> With Ease Of Comfort</h2>
               <p>
                 To create a comfortable room, of course, we provide everything
                 you need for your home with the best quality.
@@ -153,15 +161,16 @@
           <div class="col-4">
             <img
               src="/assets/pic10.png"
-              style="width: 322px; height: 182px; padding-bottom: 24px"
+              style="width: 95%; height: 182px; padding-bottom: 24px"
             />
-            <img src="/assets/pic1.png" style="width: 322px; height: 416px" />
+            <img src="/assets/pic1.png" style="width: 95%; height: 440px" />
           </div>
         </div>
       </div>
     </section>
+ -->
     <!-- 4th section -->
-    <section>
+    <!-- <section>
       <div class="container photo-gallery">
         <div class="row">
           <div class="col">
@@ -175,17 +184,33 @@
             </div>
           </div>
           <div class="col-4">
-            <img src="/assets/pic11.png" style="width: 418px; height: 740px" />
+            <img src="/assets/pic11.png" style="width: 95%; height: 620px;" />
           </div>
           <div class="col-4">
             <img
               src="/assets/pic9.png"
-              style="width: 435px; height: 457px; padding-bottom: 24px"
+              style="width: 95%; height: 400px; padding-bottom: 24px;"
             />
-            <img src="/assets/pic2.png" style="width: 435px; height: 256" />
+            <img src="/assets/pic2.png" style="width: 95%; height: 220px;" />
+          </div>
+          <div class="col-4">
+            <img src="/assets/pic20.png" style="width: 95%; height: 400px; padding-bottom: 24px;" />
+            <img src="/assets/sofa.png" style="width: 95%; height: 220px;" />
           </div>
         </div>
       </div>
     </section>
+ -->
+    <!-- <section>
+      <div class="container subscription">
+        <div class="row">
+          <div class="col">
+
+          </div>
+        </div>
+      </div>
+    </section> -->
+    </main>
+    <footer></footer>
   </body>
 </html>

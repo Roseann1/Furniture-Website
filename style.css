@@ -16,10 +16,6 @@ body {
     height: 100%;
 }
 
-nav {
-    height: 100%;
-}
-
 .logo img {
     height: 45px;
 }
@@ -45,20 +41,23 @@ ul a {
     
 } 
 
-.signup {
+button {
+    padding: 10px 25px 10px 25px;
     font-size: 15px;
     font-weight:100;
     background-color: rgb(233, 155, 155);
     text-decoration: none;
     border-radius: 20px;
     border: none;
+    height: 45px;
+
 }
 
 .sign-up-button {
-    display: none;
+    height: 100%;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    display: flex;
 }
 
 #signup:hover {
@@ -73,6 +72,8 @@ header {
     padding-left: 8px;
     padding-right: 8px;
     height: 60px;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 .title {
@@ -104,12 +105,8 @@ header {
     font-size: 17px;
     border-radius: 64px;
     border: none;
-}
-
-button {
     display: block;
     margin: 0 auto;
-    padding: 10px 25px 10px 25px;
 }
 
 .btn-secondary:hover {
@@ -129,8 +126,7 @@ button {
 }
 
 .second-section {
-    padding-left: 50px;
-    padding-right: 50px;
+    width: 1100px;
 }
 
 h3 {
@@ -156,31 +152,75 @@ h4 {
     justify-content: center;
     margin-bottom: 150px;
     gap: 30px;
-
+    flex-wrap: nowrap;
 }
     .card1 {
-    padding: 78px 110px;
-    background: #263240;
-    box-shadow: 5px 10px rgba(38, 50, 64, 0.16);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 56px;
+    gap: 32px;
     color: white;
+    width: 356.67px;
+    height: 300px;
 
-}
+    background: #263240;
+    box-shadow: 16px 24px 72px rgba(38, 50, 64, 0.16);
 
-.card2 {
-    padding: 78px 110px;
+    }
+
+    .card2 {
+        display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 56px;
+    gap: 32px;
+
+    width: 356.67px;
+    height: 300px;
+
     background: rgba(38, 50, 64, 0.16);
-    box-shadow: 5px 10px rgba(38, 50, 64, 0.16);
-    color: black;
+    }
+
+    .card3 {   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 56px;
+    gap: 32px;
+    width: 356.67px;
+    height: 300px;
+    background: rgba(38, 50, 64, 0.16); 
+
+    }
+
+.card1 img, 
+.card2 img,
+.card3 img {
+    width: 64px; 
+    height: 64px;
 }
 
-.card3 {    
-    padding: 68px 110px;
-    background: rgba(38, 50, 64, 0.16);
-    box-shadow: 5px 10px rgba(38, 50, 64, 0.16);
-    color: black;
-
+.furniture img {
+    width: 96%; 
+    height: 100% ; 
+    display: flex;
 }
 
+.visitors-area {
+    width: 100%;
+height: 100%;
+display: flex;
+}
+
+.visitors-area img {
+    width: 550px;
+    height: 510px;
+    position: relative;
+}
 
 .products {
     padding-top: 121px;
@@ -192,6 +232,15 @@ h4 {
     padding-bottom: 121px;
     padding-left: 100px;
     padding-right: 100px;
+}
+
+.product-line {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
 }
 
 
@@ -260,6 +309,9 @@ h4 {
     color: rgba(38, 50, 64, 0.7);
     line-height: 32px;
     margin-bottom: 40px;
+    width: 1000px;
+    text-align: center;
+    justify-content: center;
 }
 
 .photo-gallery {
@@ -334,18 +386,59 @@ h4 {
     width: calc(12 / 12 * 100%);
   }
 
-  @media (min-width: 768px) {
-    .sign-up-button {
-        display: flex;
+  @media screen and (max-width: 768px) {
+
+
+    .gallery {
+        flex-wrap: wrap;
+        padding-left: 180px;
     }
 
-  }
+    .furniture-w-ease p {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-size: 30px;
+        line-height: 35px;
+    }
 
-  /* @media (min-width: 375px) {
-    .card p:first-child {
+    .best-features h3  {
+        text-align: center;
+        width: 750px;
+    }
+
+    .best-features h4  {
+        text-align: center;
+        width: 600px;
+        padding-left: 110px;
+        line-height: 35px;
+        font-size: 30px;
+    }    
+
+    .mediocrity p {
+        text-align: center;
+        width: 700px;
+        line-height: 35px;
+        font-size: 30px;
+        padding-right: 250px;
+        align-items: justify;
+    }
+
+    .card p:last-child {
         font-size: 20px;
     }
-  } */
+    
+    #product-line p {
+        font-size: 30px;
+        line-height: 30px;
+    }
+  }
+
+  @media screen and (max-width: 1440px) {
+    .mediocrity p {
+        padding-left: 100px;
+    }
+  }
+
 
 
   /* sm breakpoint */

@@ -210,15 +210,10 @@ h4 {
     display: flex;
 }
 
-.visitors-area {
-    width: 100%;
-height: 100%;
-display: flex;
-}
 
 .visitors-area img {
     width: 550px;
-    height: 510px;
+    height: 508px;
     position: relative;
 }
 
@@ -322,10 +317,10 @@ display: flex;
 }
 
 .subscription {
-    background-image: url(/assets/background.png);
+    background-image: url(./assets/pink\ sofa.png);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 600px;
+    min-height: 600px;
 }
 
 .logo {
@@ -335,6 +330,77 @@ display: flex;
     align-items: center;
 }
 
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    margin-top: 121px;
+} 
+
+.subscribe h3 {
+font-weight: 600;
+font-size: 48px;
+line-height: 62px;
+letter-spacing: -0.05em;
+color: #FFFFFF;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    }
+
+
+.button1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 48px;
+    width: 590px;
+    background: rgba(197, 140, 102, 0.918);
+    border-radius: 48px;
+    font-weight: 100px;
+    }
+
+    .button button {
+        font-size: 18px;
+    }
+
+    .button1:hover {
+        background-color: rgb(224, 176, 114);
+        color: black;
+    }
+
+    
+    .column {
+        flex: 25%;
+        padding: 50px;
+        height: 300px; 
+        line-height: 50px;
+        background-color: rgb(240, 161, 187);
+      }
+
+      .column > div {
+        color: white;
+        font-size: 24px;
+        font-weight: 600;
+      }
+
+      h6 {
+        font-size: 30px;
+        color: white;
+        font-weight: 600;
+        padding-bottom: 15px;
+      }
+
+      .tagline {
+        line-height: 25px;
+        color: black;
+      }
+
+    
 .col {
     width: 100%;
     height: 100%;
@@ -430,6 +496,10 @@ display: flex;
     #product-line p {
         font-size: 30px;
         line-height: 30px;
+    }
+
+    .column {
+        flex: 50%;
     }
   }
 
@@ -556,6 +626,8 @@ display: flex;
    }
     .col-lg-3 {
       width: calc(3 / 12 * 100%);
+      flex: 25%;
+  
     }
     .col-lg-4 {
       width: calc(4 / 12 * 100%);

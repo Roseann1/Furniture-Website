@@ -359,7 +359,7 @@ color: #FFFFFF;
     align-items: center;
     padding: 24px 48px;
     width: 590px;
-    background: rgba(197, 140, 102, 0.918);
+    background: rgb(238, 152, 166);
     border-radius: 48px;
     font-weight: 100px;
     }
@@ -369,7 +369,7 @@ color: #FFFFFF;
     }
 
     .button1:hover {
-        background-color: rgb(224, 176, 114);
+        background-color: rgb(230, 96, 119);
         color: black;
     }
 

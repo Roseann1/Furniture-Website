@@ -213,7 +213,7 @@ h4 {
 
 .visitors-area img {
     width: 550px;
-    height: 508px;
+    height: 438px;
     position: relative;
 }
 
@@ -506,6 +506,10 @@ color: #FFFFFF;
   @media screen and (max-width: 1440px) {
     .mediocrity p {
         padding-left: 100px;
+    }
+
+    .visitors-area img {
+        height: 508px;
     }
   }
 

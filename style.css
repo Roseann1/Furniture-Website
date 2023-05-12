@@ -160,13 +160,17 @@ h4 {
     align-items: center;
     padding: 32px 56px;
     gap: 32px;
-    color: white;
+    color: black;
     width: 356.67px;
     height: 300px;
-
-    background: #263240;
     box-shadow: 16px 24px 72px rgba(38, 50, 64, 0.16);
+    background: rgba(38, 50, 64, 0.16);
 
+    }
+
+    .card1:hover {
+      background: #263240;
+      color: white;
     }
 
     .card2 {
@@ -183,6 +187,11 @@ h4 {
     background: rgba(38, 50, 64, 0.16);
     }
 
+    .card2:hover {
+      background: #263240;
+      color: white;
+    }
+
     .card3 {   
     display: flex;
     flex-direction: column;
@@ -195,6 +204,12 @@ h4 {
     background: rgba(38, 50, 64, 0.16); 
 
     }
+
+    .card3:hover {
+      background: #263240;
+      color: white;
+    }
+
 
 .card1 img, 
 .card2 img,

@@ -403,6 +403,10 @@ color: #FFFFFF;
         color: black;
       }
 
+      .column a:hover {
+        color: white;
+      }
+
       h6 {
         font-size: 30px;
         color: white;
